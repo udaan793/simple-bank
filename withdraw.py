@@ -1,4 +1,5 @@
-def withdraw()
+from main import bal
+def withdraw():
     amt = float(input("Enter amount to be withdrawn : "))
     if amt < 0:
         print("invalid amount")
