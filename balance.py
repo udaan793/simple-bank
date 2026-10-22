@@ -1,3 +1,2 @@
-from main import bal
-def balance():
-    print(f"Your balance is ${bal:.2f}")
+def view_balance(bal):
+    print(f"Your balance is ${bal:.2f} \n")
